@@ -1,0 +1,14 @@
+[App]
+name = "ai.h2o.wave.image_prediction"
+Version = "1.0.0"
+Title = "Image Detection"
+Description = "Explainable image detection with Keras and Grad-CAM"
+LongDescription = "LongDescription.md"
+Tags = ["COMP_VISION", "EXPLAINABILITY", "OSS", "UNSUPERVISED_LEARNING"]
+
+[Runtime]
+Module = "src.app"
+
+[[Env]]
+Name = "H2O_WAVE_PUBLIC_DIR"
+Value = "/images/@../../app/images/"

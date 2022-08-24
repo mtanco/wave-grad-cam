@@ -1,0 +1,5 @@
+h2o_wave==0.22.0
+toml==0.10.2
+tensorflow
+matplotlib
+numpy
